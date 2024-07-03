@@ -81,6 +81,27 @@ function modFn(){
 }
 
 
+
+
+
+
+
+function testFn(){
+  const v1 = Number(number1.value);
+  const v2 = Number(number2.value);
+
+
+}
+
+
+
+
+
+
+
+
+
+
 //산술 연산 응용하기
 const in1 = document.getElementById('in1');
 const in2 = document.getElementById("in2"); // 2번 input
@@ -199,7 +220,7 @@ function checkFn(){
   // 전위 연산(++변수명, --변수명)
   // - 다른 어떤 연산보다도 우선 실행
 
-  let num =100;
+  let num =-100;
 
   console.log("++num :", ++num); // 101
   console.log("++num :", ++num); // 102
