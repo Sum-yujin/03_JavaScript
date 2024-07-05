@@ -23,8 +23,8 @@ num.innerText = n1;
 function plus(){
   n1++;
   num.innerText = n1;
-  price.innerHTML = "<h4> 내실 금액 : " + p1 * n1 + "원 <h4>";
-  console.log(`p클릭후: ${v1},${p1},${n1}`);
+  p1 *= n1;
+  
 }
 
 function minus(){
@@ -34,10 +34,14 @@ function minus(){
     return;
   }
   num.innerText = n1;
-  
-  console.log(`m클릭후: ${v1}`);
+  p1 *= n1;
 }
 
+price.innerHTML = `<h4>내실 금액 : ${p1}원<h4>`;
+function test(){
+  console.log(n1 , p1, p1 * n1);
+  console.log( `<h4>내실 금액 : ${p1 * n1}원<h4>`);
 
-price.innerHTML = "<h4> 내실 금액 : " + v1 + "원 <h4>";
+}
+
 
