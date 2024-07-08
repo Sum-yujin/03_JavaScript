@@ -19,6 +19,7 @@ let n1 = 1;
 let p1 = 1000;
 
 num.innerText = n1;
+price.innerHTML = `<h4>내실 금액 : ${p1}원<h4>`;
 
 function plus(){
   n1++;
@@ -37,11 +38,10 @@ function minus(){
   p1 *= n1;
 }
 
-price.innerHTML = `<h4>내실 금액 : ${p1}원<h4>`;
+
 function test(){
   console.log(n1 , p1, p1 * n1);
   console.log( `<h4>내실 금액 : ${p1 * n1}원<h4>`);
-
 }
 
 
