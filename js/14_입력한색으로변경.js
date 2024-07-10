@@ -31,7 +31,7 @@ changeBtn.addEventListener("click", function(){
   for(let i = 0 ; i < boxList.length ; i++){
     // input에 작성된 값을 얻어와
     // 같은 index번째 box 요소에 배경색으로 대입
-    boxList[i].style.backgroundColor = inputList[i].value
+    boxList[i].style.backgroundColor = inputList[i].value;
 
     // 투명도 적용
     boxList[i].style.opacity = op;
