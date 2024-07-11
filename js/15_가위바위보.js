@@ -5,7 +5,7 @@ const user = ["가위L.png","보L.png","바위L.png"];
 const com = ["가위R.png","보R.png","바위R.png"];
 
 // 이미지가 표시될 공간
-const imgUser = document.getElementById("#img-box");
+const imgUser = document.getElementById("img-box");
 // 버튼 불러오기
 const btn = document.querySelectorAll("#hand");
 const start = document.querySelectorAll("#start");
