@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#num-box{
+  border: 2px solid black;
+  padding: 10px;
+  margin: 30px;
+  width: 250px;
+  height: 450px;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.num{
+  border: 2px solid black;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+
+  text-align: center;
+  line-height: 200%;
+  font-weight: border;
+  font-size: 20px;
+
+  cursor: pointer;
+}
